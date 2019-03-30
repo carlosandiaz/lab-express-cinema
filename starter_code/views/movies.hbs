@@ -1,0 +1,21 @@
+<h1>Movies</h1>
+
+<ul>
+  {{#each movieArray}}
+  <div>
+    <li><h2>{{this.title}}</h2> </li>
+    <h3>{{this.director}}</h3>
+    <img src="{{this.image}}" alt="">
+    </br>
+    </br>
+    <h4><a href="/movie/{{this._id}}">See More</a></h4>
+    </br>
+    </br>
+    </br>
+    </br>
+  </div>
+
+
+
+  {{/each}}
+</ul> 
